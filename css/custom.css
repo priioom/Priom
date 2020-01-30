@@ -1,0 +1,142 @@
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: red;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.navbar{
+   letter-spacing: 3px;
+}
+.navbar-brand{
+  color: #ED4754 !important;
+}
+.navbar-nav .nav-item:hover{
+border-bottom: 2px solid  #ED4754 ;
+}
+.navbar-nav .active a{
+  color: #ED4754 !important;
+  border-bottom: 2px solid  #ED4754 ;
+}
+.ServicesCard{
+   border-top: 3px solid  #ED4754 ;
+}
+.SectionHead{
+  color: #ED4754;
+}
+.padServ{
+  padding: 20px;
+}
+.spanBorder{
+  border-bottom: 2px solid  #ED4754;
+  max-width:60px;
+}
+.bg-col{
+  background-color:#ED4754 !important;;
+}
+.background{
+  background-color:  #454d54;
+  height: 600px;
+}
+.backColor{
+  background-color:  #454d54;
+  padding: 20px;
+}
+.Priom{
+  max-height: 400px;
+}
+.SpanName{
+  color: #ED4754;
+}
+.maxheight{
+  max-height: 232px;
+}
+.margTop{
+  margin-top: 45px;
+}
+.margbotttom{
+  margin-bottom: 10px !important;
+}
+.cardHead{
+  font-size: 42px;
+  padding: 10px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.cardPara{
+  font-size: 26px;
+  padding: 10px; 
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+}
+
+.marg15{
+  margin: 15px;
+}
+.btnPortfolio{
+  padding: 13px 40px;
+  border: 2px solid #ED4754;
+  border-radius: 50px;
+  color:white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.btnPortfolio:hover{
+  background-color: #ED4754;
+  color:white;
+  text-decoration: none;
+}
+.navTab li a{
+  padding: 13px 40px;
+  border: 2px solid #ED4754;
+  border-radius: 50px !important;
+  color:white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin: 5px;
+}
+.navTab li a:hover{
+  background-color: #ED4754;
+  color:white;
+  text-decoration: none;
+}
+.navTab .active{
+  background-color: #ED4754 !important;
+}
+.btnHire{
+  padding: 13px 40px;
+  border: 2px solid #ED4754;
+  border-radius: 50px;
+  color:black;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.btnHire:hover{
+  background-color: #ED4754;
+  color:white;
+  text-decoration: none;
+}
+@media (pointer: coarse) and (hover: none) {
+.navbar{
+  border-bottom: 3px solid #977229;
+  letter-spacing: 4px;
+}
+
+}
