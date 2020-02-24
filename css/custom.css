@@ -1,7 +1,11 @@
 ::-webkit-scrollbar {
   width: 2px;
 }
-
+image{
+  image-rendering: inherit;
+image-rendering: initial;
+image-rendering: unset;
+}
 /* Track */
 ::-webkit-scrollbar-track {
   background: red;
@@ -62,6 +66,17 @@ border-bottom: 2px solid  #ED4754 ;
 .maxheight{
   max-height: 232px;
 }
+.maxheightGallery{
+  max-height: 360px !important;
+  width: 100%;
+image-rendering: auto;
+image-rendering: crisp-edges;
+image-rendering: pixelated;
+}
+/*.GalleryImage #pills-home > div > a > img:hover{
+  width: auto;
+  height: auto;
+}*/
 .margTop{
   margin-top: 45px;
 }
