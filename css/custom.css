@@ -67,11 +67,9 @@ border-bottom: 2px solid  #ED4754 ;
   max-height: 232px;
 }
 .maxheightGallery{
-  max-height: 360px !important;
+  max-height: 220px !important;
   width: 100%;
-image-rendering: auto;
-image-rendering: crisp-edges;
-image-rendering: pixelated;
+
 }
 /*.GalleryImage #pills-home > div > a > img:hover{
   width: auto;
