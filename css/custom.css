@@ -178,6 +178,9 @@ border-bottom: 2px solid  #ED4754 ;
   color:white;
   text-decoration: none;
 }
+label{
+  color: white;
+}
 @media (pointer: coarse) and (hover: none) {
 .navbar{
   border-bottom: 3px solid #977229;
